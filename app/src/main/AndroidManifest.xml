@@ -10,8 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MeriLeague">
         <activity
-            android:name=".Activities.Dashboard"
+            android:name=".Activities.My_Matches"
             android:exported="false" />
+        <activity
+            android:name=".Activities.Dashboard"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Activities.Splash_Screen"
             android:exported="false" />
@@ -20,13 +29,7 @@
             android:exported="false" />
         <activity
             android:name=".Activities.Login_Activity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".MainActivity"
             android:exported="true" />

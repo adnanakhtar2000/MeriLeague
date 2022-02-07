@@ -14,7 +14,7 @@ class SignUp_Activity : AppCompatActivity() {
         setContentView(signUpBinding.root)
         val window = this.window
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
-        window.statusBarColor = this.resources.getColor(R.color.white)
+        window.statusBarColor = this.resources.getColor(R.color.green)
 
 
     }
