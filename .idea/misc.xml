@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/bottom_navigation.xml" value="0.1705" />
+        <entry key="app/src/main/res/drawable/ic_splash_cvg.xml" value="0.1845" />
         <entry key="app/src/main/res/drawable/input_fileds_design.xml" value="0.1665" />
         <entry key="app/src/main/res/drawable/radio_button_shape.xml" value="0.1705" />
         <entry key="app/src/main/res/drawable/radio_button_shape1.xml" value="0.1705" />
@@ -24,6 +25,8 @@
         <entry key="app/src/main/res/layout/matches_layout.xml" value="0.375" />
         <entry key="app/src/main/res/layout/mymatchesLive_layout.xml" value="0.26666666666666666" />
         <entry key="app/src/main/res/layout/mymatchesUpcomming_layout.xml" value="0.26666666666666666" />
+        <entry key="app/src/main/res/layout/mymatchescompleted_layout.xml" value="0.335" />
+        <entry key="app/src/main/res/layout/mymatcheslive_layout.xml" value="0.375" />
         <entry key="app/src/main/res/layout/mymatchesupcomming_layout.xml" value="0.375" />
         <entry key="app/src/main/res/menu/bottom_navigation.xml" value="0.18802083333333333" />
         <entry key="app/src/main/res/menu/drawer_navigation.xml" value="0.26666666666666666" />

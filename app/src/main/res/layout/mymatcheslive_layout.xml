@@ -48,7 +48,7 @@
        />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/first_teamFlag1"
+        android:id="@+id/first_teamFlag2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginLeft="30dp"
@@ -58,7 +58,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/second_teamFlag1"
+        android:id="@+id/second_teamFlag2"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginRight="30dp"
@@ -76,13 +76,13 @@
         android:text="V/S"
         android:textColor="@color/black"
         android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="@+id/first_teamFlag1"
-        app:layout_constraintEnd_toStartOf="@+id/second_teamFlag1"
-        app:layout_constraintStart_toEndOf="@+id/first_teamFlag1"
-        app:layout_constraintTop_toTopOf="@+id/first_teamFlag1" />
+        app:layout_constraintBottom_toBottomOf="@+id/first_teamFlag2"
+        app:layout_constraintEnd_toStartOf="@+id/second_teamFlag2"
+        app:layout_constraintStart_toEndOf="@+id/first_teamFlag2"
+        app:layout_constraintTop_toTopOf="@+id/first_teamFlag2" />
 
     <TextView
-        android:id="@+id/first_teamName1"
+        android:id="@+id/first_teamName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="5dp"
@@ -90,12 +90,12 @@
         android:text="AUS"
         android:textSize="14dp"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/first_teamFlag1"
-        app:layout_constraintStart_toStartOf="@+id/first_teamFlag1"
-        app:layout_constraintTop_toBottomOf="@+id/first_teamFlag1" />
+        app:layout_constraintEnd_toEndOf="@+id/first_teamFlag2"
+        app:layout_constraintStart_toStartOf="@+id/first_teamFlag2"
+        app:layout_constraintTop_toBottomOf="@+id/first_teamFlag2" />
 
     <TextView
-        android:id="@+id/second_teamName1"
+        android:id="@+id/second_teamName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:elevation="5dp"
@@ -103,9 +103,9 @@
         android:text="PAK"
         android:textSize="14dp"
         android:textColor="@color/black"
-        app:layout_constraintEnd_toEndOf="@+id/second_teamFlag1"
-        app:layout_constraintStart_toStartOf="@+id/second_teamFlag1"
-        app:layout_constraintTop_toBottomOf="@+id/first_teamFlag1" />
+        app:layout_constraintEnd_toEndOf="@+id/second_teamFlag2"
+        app:layout_constraintStart_toStartOf="@+id/second_teamFlag2"
+        app:layout_constraintTop_toBottomOf="@+id/first_teamFlag2" />
 
     <TextView
         android:id="@+id/viewTeam"
@@ -118,9 +118,9 @@
         android:textColor="@color/green"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/first_teamFlag1"
-        app:layout_constraintStart_toStartOf="@+id/first_teamFlag1"
-        app:layout_constraintTop_toBottomOf="@+id/first_teamName1" />
+        app:layout_constraintEnd_toEndOf="@+id/first_teamFlag2"
+        app:layout_constraintStart_toStartOf="@+id/first_teamFlag2"
+        app:layout_constraintTop_toBottomOf="@+id/first_teamName2" />
 
     <TextView
         android:id="@+id/UpdateTeam"
@@ -133,9 +133,9 @@
         android:textColor="@color/green"
         android:textSize="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/second_teamFlag1"
-        app:layout_constraintStart_toStartOf="@+id/second_teamFlag1"
-        app:layout_constraintTop_toBottomOf="@+id/first_teamName1" />
+        app:layout_constraintEnd_toEndOf="@+id/second_teamFlag2"
+        app:layout_constraintStart_toStartOf="@+id/second_teamFlag2"
+        app:layout_constraintTop_toBottomOf="@+id/first_teamName2" />
 
     <TextView
         android:id="@+id/winPrizes1"
@@ -150,7 +150,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/UpdateTeam"
         app:layout_constraintStart_toEndOf="@+id/viewTeam"
-        app:layout_constraintTop_toBottomOf="@+id/first_teamName1" />
+        app:layout_constraintTop_toBottomOf="@+id/first_teamName2" />
 
     <TextView
         android:layout_width="wrap_content"

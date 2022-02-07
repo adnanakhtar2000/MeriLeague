@@ -11,5 +11,7 @@
     <color name="blue">#0912fc</color>
     <color name="green">#3cb700</color>
     <color name="blur_blue">#4ca4db</color>
+    <color name="blue_full">#FF665BFF</color>
+
 
 </resources>
