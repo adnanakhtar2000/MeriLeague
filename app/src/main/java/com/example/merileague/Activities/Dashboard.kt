@@ -27,13 +27,42 @@ class Dashboard : AppCompatActivity() {
                 R.id.left_myMatches -> {
                    val intent = Intent(applicationContext , My_Matches::class.java)
                     startActivity(intent)
+                    overridePendingTransition(0,0)
 
                 }
+                R.id.left_wallet -> {
+                    val intent = Intent(applicationContext , My_Wallet::class.java)
+                    startActivity(intent)
+                    overridePendingTransition(0,0)
+
+                }
+                R.id.left_myMatches -> {
+                    val intent = Intent(applicationContext , My_Matches::class.java)
+                    startActivity(intent)
+                    overridePendingTransition(0,0)
+                }
             }
-            dashboardBinding.drawerLayout.closeDrawer(GravityCompat.START)
+
             return@setNavigationItemSelectedListener true
 
         }
+        dashboardBinding.bottomNav.setOnItemSelectedListener {
+            when(it.itemId){
+                R.id.bottom_matches -> {
+                    val intent = Intent(applicationContext , My_Matches::class.java)
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    startActivity(intent)
+                    overridePendingTransition(0,0)
 
+                }
+                R.id.bottom_home -> {
+                    val intent = Intent(applicationContext , Dashboard::class.java)
+                    intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                    startActivity(intent)
+                    overridePendingTransition(0,0)
+
+                }
+        }
+return@setOnItemSelectedListener true
     }
-}
+}}

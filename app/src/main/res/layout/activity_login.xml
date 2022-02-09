@@ -192,35 +192,45 @@
         app:layout_constraintEnd_toEndOf="@id/phone"
         app:layout_constraintTop_toTopOf="@id/phone" />
 
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/main_button"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/phone"
+        app:layout_constraintStart_toStartOf="@+id/phone"
+        app:layout_constraintTop_toBottomOf="@+id/phone" />
+
     <ImageView
-        android:id="@+id/google_button"
+        android:id="@+id/google_signup_button"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginLeft="139dp"
-        android:layout_marginTop="71dp"
         android:layout_marginRight="98dp"
-        android:layout_marginBottom="20dp"
         android:elevation="20dp"
         android:src="@drawable/google"
         app:layout_constraintBottom_toBottomOf="@+id/cardview"
         app:layout_constraintEnd_toEndOf="@+id/cardview"
         app:layout_constraintStart_toStartOf="@+id/cardview"
-        app:layout_constraintTop_toBottomOf="@+id/phone" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_button" />
 
     <ImageView
-        android:id="@+id/facebook_button"
+        android:id="@+id/facebook_signup_button"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginLeft="98dp"
-        android:layout_marginTop="71dp"
         android:layout_marginRight="139dp"
-        android:layout_marginBottom="20dp"
+
         android:elevation="20dp"
         android:src="@drawable/facebook"
         app:layout_constraintBottom_toBottomOf="@+id/cardview"
         app:layout_constraintEnd_toEndOf="@+id/cardview"
         app:layout_constraintStart_toStartOf="@+id/cardview"
-        app:layout_constraintTop_toBottomOf="@+id/phone" />
+        app:layout_constraintTop_toBottomOf="@+id/signup_button" />
 
     <LinearLayout
         android:layout_width="wrap_content"

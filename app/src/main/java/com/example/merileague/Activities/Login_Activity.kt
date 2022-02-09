@@ -16,8 +16,14 @@ class Login_Activity : AppCompatActivity() {
         val window = this.window
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
         window.statusBarColor = this.resources.getColor(R.color.white)
+        // Login Signup Button
         loginBinding.loginSignup.setOnClickListener{
             val intent = Intent(this , SignUp_Activity::class.java)
+            startActivity(intent)
+        }
+        // Signup Button
+        loginBinding.signupButton.setOnClickListener{
+            val intent = Intent(this , Dashboard::class.java)
             startActivity(intent)
         }
     }

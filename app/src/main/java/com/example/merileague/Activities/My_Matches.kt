@@ -32,5 +32,9 @@ class My_Matches : AppCompatActivity() {
         myMatchesBinding.myMatchesViewpager.adapter  = cricketTabadapter
         myMatchesBinding.myMatchesTab.setupWithViewPager(myMatchesBinding.myMatchesViewpager)
 
+        myMatchesBinding.backarrow.setOnClickListener{
+            finish()
+        }
+
     }
 }

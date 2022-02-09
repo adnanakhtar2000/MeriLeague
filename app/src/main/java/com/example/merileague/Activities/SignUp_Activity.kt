@@ -16,11 +16,16 @@ class SignUp_Activity : AppCompatActivity() {
         val window = this.window
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
         window.statusBarColor = this.resources.getColor(R.color.green)
+        //Create Account Button
         signUpBinding.createAccount.setOnClickListener{
             val intent = Intent(this , Login_Activity::class.java)
             startActivity(intent)
         }
-
+        // Login Button
+        signUpBinding.loginButton.setOnClickListener{
+            val intent = Intent(this , Dashboard::class.java)
+            startActivity(intent)
+        }
 
     }
 }
