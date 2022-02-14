@@ -20,6 +20,7 @@ class Dashboard : AppCompatActivity() {
         window.statusBarColor = this.resources.getColor(R.color.green)
         dashboardBinding.dehaze.setOnClickListener {
             dashboardBinding.drawerLayout.openDrawer(GravityCompat.START)
+            ///stat
         }
        supportFragmentManager.beginTransaction().add(R.id.dashboard_container , Cricket_Fragment()).commit()
         dashboardBinding.navigationView.setNavigationItemSelectedListener{
@@ -65,4 +66,5 @@ class Dashboard : AppCompatActivity() {
         }
 return@setOnItemSelectedListener true
     }
+        
 }}
