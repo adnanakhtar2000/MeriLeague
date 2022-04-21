@@ -51,7 +51,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginTop="48dp"
         android:elevation="50dp"
         android:fontFamily="@font/poppins_semibold"
         android:lineHeight="21dp"
@@ -62,9 +62,8 @@
         app:layout_constraintEnd_toEndOf="@+id/cardview"
         app:layout_constraintStart_toStartOf="@+id/cardview"
         app:layout_constraintTop_toTopOf="@+id/cardview" />
-
     <EditText
-        android:id="@+id/user_name"
+        android:id="@+id/full_name"
         android:layout_width="0dp"
         android:layout_height="37dp"
         android:layout_marginLeft="21dp"
@@ -74,7 +73,7 @@
         android:elevation="5dp"
         android:maxLength="25"
         android:fontFamily="@font/poppins"
-        android:hint="User Name"
+        android:hint="Full Name"
         android:inputType="textPersonName"
         android:paddingStart="14dp"
         android:textColor="@color/black"
@@ -84,6 +83,37 @@
         app:layout_constraintLeft_toLeftOf="@id/cardview"
         app:layout_constraintRight_toRightOf="@id/cardview"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+    <ImageView
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginEnd="14dp"
+        android:elevation="20dp"
+        android:src="@drawable/user"
+        app:layout_constraintBottom_toBottomOf="@id/full_name"
+        app:layout_constraintEnd_toEndOf="@id/full_name"
+        app:layout_constraintTop_toTopOf="@id/full_name" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="0dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginRight="21dp"
+        android:background="@drawable/input_fileds_design"
+        android:elevation="5dp"
+        android:fontFamily="@font/poppins"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:paddingStart="14dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/hint_color"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        android:layout_marginTop="14dp"
+        app:layout_constraintLeft_toLeftOf="@id/cardview"
+        app:layout_constraintRight_toRightOf="@id/cardview"
+        app:layout_constraintTop_toBottomOf="@+id/full_name" />
 
     <ImageView
         android:layout_width="12dp"

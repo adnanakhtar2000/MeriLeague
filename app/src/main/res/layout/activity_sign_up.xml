@@ -73,7 +73,7 @@
         android:background="@drawable/input_fileds_design"
         android:elevation="5dp"
         android:fontFamily="@font/poppins"
-        android:hint="E-mail"
+        android:hint="User Name"
         android:inputType="textEmailAddress"
         android:maxLength="30"
         android:paddingStart="14dp"
